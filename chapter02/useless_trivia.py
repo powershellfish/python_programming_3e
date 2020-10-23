@@ -3,10 +3,9 @@
 # Gets personal information from the user and then
 # prints true but useless information about him or her
 
-name = input("Hi.  What's your name? ")
+name = str(input("Hi.  What's your name? "))
 
-age = input("How old are you? ")
-age = int(age)
+age = int(input("How old are you? "))
 
 weight = int(input("Okay, last question.  How many pounds do you weigh? "))
 

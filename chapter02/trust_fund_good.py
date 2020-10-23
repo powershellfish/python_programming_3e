@@ -22,7 +22,10 @@ jet = int(input("Private Jet Rental: "))
 gifts = int(input("Gifts: "))
 food = int(input("Dining Out: "))
 staff = int(input("Staff (butlers, chef, driver, assistant): "))
-guru = int(input("Personal Guru and Coach: ") )
+guru = int(input("Personal Guru and Coach: "))
+
+# Why is there an extra space here in between the parens?
+
 games = int(input("Computer Games: "))
 
 total = car + rent + jet + gifts + food + staff + guru + games

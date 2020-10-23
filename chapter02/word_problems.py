@@ -21,9 +21,9 @@ print("they divide the booty evenly, how many whole coins does each get?")
 input("Press the enter key to find out.")
 print("107 // 4 =", 107 // 4)
 
-print("\nIf that same group of 4 pirates evenly divides the chest full")
-print("of 107 gold coins, how many coins are left over?")
+print("\nHow old is Caroline?")
+print("Do you want to guess?")
 input("Press the enter key to find out.")
-print("107 % 4 =", 107 % 4)
+print("30 + 6 =", 30 + 6)
 
 input("\n\nPress the enter key to exit.")

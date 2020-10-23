@@ -22,4 +22,10 @@ print(quote.replace("five", "millions of"))
 print("\nOriginal quote is still:")
 print(quote)
 
+print("\nUsing swapcase:")
+print(quote.swapcase())
+
+print("\nTrying out replace...")
+print(quote.replace("world", "big globe thing"))
+
 input("\n\nPress the enter key to exit.")
