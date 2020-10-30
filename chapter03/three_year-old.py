@@ -9,6 +9,10 @@ response = ""
 while response != "Because.":
     response = input("Why?\n")
 
+# Why the input("Why?\n" here?
+
 print("Oh.  Okay.")
 
 input("\n\nPress the enter key to exit.")
+
+input(

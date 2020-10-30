@@ -47,6 +47,9 @@ elif mood == 3:
        | '   '   |
        -----------
                    """)
+# This ELSE statement won't happen unless the numbers randomly generated for MOOD
+# above are changed to go outside of what is defined in this program (1-3)
+
 else:
     print("Illegal mood value!  (You must be in a really bad mood).")
 

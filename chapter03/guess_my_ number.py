@@ -5,9 +5,13 @@
 # the player know if the guess is too high, too low
 # or right on the money
 
-import random  
+import random
 
-print("\tWelcome to 'Guess My Number'!")
+# Import allows you to import or load modules. In this case, the module is "random". 
+
+name = input("Hi.  What's your name? ")
+print("\nHi,",name,".")
+print("Welcome to 'Guess My Number'!")
 print("\nI'm thinking of a number between 1 and 100.")
 print("Try to guess it in as few attempts as possible.\n")
 

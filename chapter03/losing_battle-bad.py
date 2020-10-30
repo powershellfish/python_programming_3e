@@ -10,6 +10,10 @@ trolls = 0
 damage = 3
 
 while health != 0:
+# !=0 means that loop will continue inifinitely because
+# the number will ALWAYS not be equal to 0.
+# So the statement is NEVER false, and always true, so it continues.
+    
     trolls += 1
     health -= damage
     
