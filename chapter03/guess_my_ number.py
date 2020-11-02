@@ -44,6 +44,8 @@ while guess != the_number:
 
 # Let the player know that they guessed the number correctly, and print the number of times
 # it took them to guess correctly.
+# Because the condition "while guess != the number: is false, the loop ends and prints the text
+# below.
 
 print("You guessed it!  The number was", the_number)
 print("And it only took you", tries, "tries!\n")
