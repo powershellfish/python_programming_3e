@@ -10,11 +10,20 @@ username = ""
 while not username:
     username = input("Username: ")
 
+# This while loop ensures that the program won't continue until a username
+# is entered.
+
 password = ""
 while not password:
     password = input("Password: ")
 
-if username == "M.Dawson" and password == "secret":
+# This while loop ensures that the program won't continue until a password
+# is also entered.
+
+if username == "glitterbot" and password == "Gizmo":
+    print("Hey there, glitterbot.")
+    security = 6
+elif username == "M.Dawson" and password == "secret":
     print("Hi, Mike.")
     security = 5
 elif username == "S.Meier" and password == "civilization":
