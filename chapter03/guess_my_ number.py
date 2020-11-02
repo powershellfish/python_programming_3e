@@ -27,13 +27,16 @@ the_number = random.randint(1, 100)
 guess = int(input("Take a guess: "))
 tries = 1
 
+
 # This is the guessing loop.
 # as long as the player gueses a number that is not equal to the number, and if
 # that number is greater than the random integer, print "lower..."
 # and if the number is less than the number, print "higher..."
 # and each time, print "Take a guess:"
 
-while guess != the_number:
+while guess != the_number and tries < 5:
+
+# This gives the player 5 attempts to get the number correct.
     if guess > the_number:
         print("Lower...")
     else:
@@ -42,12 +45,17 @@ while guess != the_number:
     guess = int(input("Take a guess: "))
     tries += 1
 
+
 # Let the player know that they guessed the number correctly, and print the number of times
 # it took them to guess correctly.
 # Because the condition "while guess != the number: is false, the loop ends and prints the text
 # below.
+# This if/else statment only prints if the guess was not equal to the_number in under 5 tries.
 
-print("You guessed it!  The number was", the_number)
-print("And it only took you", tries, "tries!\n")
+if guess == the_number:
+    print("You guessed it!  The number was", the_number)
+    print("And it only took you", tries, "tries!\n")
+else:
+    print("Sorry, all out of guesses.")
   
 input("\n\nPress the enter key to exit.")
