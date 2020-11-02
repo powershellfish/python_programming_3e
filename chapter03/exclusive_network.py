@@ -23,6 +23,14 @@ while not password:
 if username == "glitterbot" and password == "Gizmo":
     print("Hey there, glitterbot.")
     security = 6
+
+# This loop says "if user is glitterbot and password is Gizmo, then true,
+# and print "Hey there, glitterbot." and assign a security level of 6.
+# None of the ELIF statements below are executed because the code stops
+# running as soon as one of them is TRUE.
+# The last ELSE statement only runs if the user doesn't match a username
+# or password to what is in the code below. One or the other must be a match.
+
 elif username == "M.Dawson" and password == "secret":
     print("Hi, Mike.")
     security = 5
