@@ -1,3 +1,5 @@
+#Coin Flip Attempt 11
+
 import random
 
 count = 0
@@ -10,7 +12,7 @@ while count < 100:
         print("Heads!\n")
         count += 1
         heads += 1
-    elif coin == 2:
+    if coin == 2:
         print("Tails!\n")
         count += 2
         tails += 2
