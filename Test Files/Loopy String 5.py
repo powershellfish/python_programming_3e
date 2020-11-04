@@ -11,4 +11,7 @@ for letter in word:
 
 # Uses a for loop to print out each letter from the sequence (word) on individual lines.
 
+for letter in word:
+	print (letter)
+
 print("\nPress Enter to exit.")
