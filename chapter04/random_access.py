@@ -3,7 +3,7 @@
 
 import random
 
-word = "index"
+word = "latte"
 print("The word is: ", word, "\n")
 
 high = len(word)
