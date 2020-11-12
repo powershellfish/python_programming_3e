@@ -18,7 +18,12 @@ print("The word is: ", word, "\n")
 high = len(word)
 low = -len(word)
 
-# This for loop
+# position = random.randrange(low, high) produces either -5, -4, -3, -2, -1,
+# 0, 1, 2, 3, or 4.
+
+# This for loop executes 10 times.
+# Picks random position value and prints position value of corresponding letter
+# in the string.
 
 for i in range(10):
     position = random.randrange(low, high)
