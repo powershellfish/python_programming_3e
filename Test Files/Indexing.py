@@ -9,4 +9,4 @@ print(word[4])
 print(word[5])
 print("\n")
 
-print(word.upper())
+
