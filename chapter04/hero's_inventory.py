@@ -11,10 +11,11 @@ if not inventory:
 input("\nPress the enter key to continue.")
 
 # create a tuple with some items
-inventory = ("sword",
-             "armor",
-             "shield",
-             "healing potion")
+# modified items because why not
+inventory = ("mascara",
+             "eyeliner",
+             "lipstick",
+             "mace")
 
 # print the tuple
 print("\nThe tuple inventory is:")
