@@ -7,7 +7,7 @@ Each folder corresponds to a chapter. In each of the chapters, I follow along wi
 ## Modified Exercise Files
 - Many exercise files in my repo have been modified, but not significantly.
 - Significantly modified programs have been moved to the [Exercises](https://github.com/powershellfish/python_programming_3e/tree/master/Exercises) folder to make it easier for me to find what I built on my own. 
-🍕>These apps will seem repetitive and at times non-sensical. I sometimes use this folder to see if I can code from scratch/memory which is why you'll often see multiple iterations of what looks like the same program. 
+>🍕These apps will seem repetitive and at times non-sensical. I sometimes use this folder to see if I can code from scratch/memory which is why you'll often see multiple iterations of what looks like the same program. 
 
 ## Exercise Files by Chapter
 This is a list of all exercise files as they appear in the book. Some of them have been modified. 
