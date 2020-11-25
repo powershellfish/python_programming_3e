@@ -9,3 +9,4 @@ Each folder corresponds to a chapter. In each of the chapters, I follow along wi
 - Many exercise files in my repo have been modified, but not significantly.
 - Significantly modified programs have been moved to the [Exercises](https://github.com/powershellfish/python_programming_3e/tree/master/Exercises) folder to make it easier for me to find what I built on my own.
 
+# Creating a line
