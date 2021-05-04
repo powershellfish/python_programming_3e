@@ -22,6 +22,7 @@ while choice != "0":
     print()
 
     # exit
+    # if the user enters 0, the program quits because the choice == 0 and the loop stops.
     if choice == "0":
         print("Good-bye.")
 
@@ -33,12 +34,12 @@ while choice != "0":
 
     # add a score
     elif choice == "2":
-        score = int(input("What score did you get?: "))
+        score = int(input("What score did you get? Be honest: "))
         scores.append(score)
 
     # remove a score
     elif choice == "3":
-        score = int(input("Remove which score?: "))
+        score = int(input("Which score do you want to remove?: "))
         if score in scores:
             scores.remove(score)
         else:
